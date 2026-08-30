@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { projects } from "../data/projects";
-import ProjectCard from "../components/ProjectCard";
+import projectCard from "../components/projectCard";
 
 export default function Home() {
   const featuredProjects = projects.slice(0, 3);
