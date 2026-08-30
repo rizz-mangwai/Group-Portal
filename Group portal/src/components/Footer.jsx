@@ -3,10 +3,10 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-brand">
-          <span className="logo-icon">🚀</span>
-          <span>GroupPort</span>
+          <i className="fas fa-code logo-icon"></i>
+          <span>GroupPortfolio</span>
         </div>
-        <p className="footer-text">© 2026 GroupPort — Built with ❤️ by Team</p>
+        <p className="footer-text">© 2026 GroupPortfolio — Built by Team</p>
         <div className="footer-links">
           <a href="#">Privacy</a>
           <a href="#">Terms</a>
