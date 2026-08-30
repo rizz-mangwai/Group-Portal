@@ -1,3 +1,14 @@
+// Helper: turns a name like "Lydia Jepleting" into initials like "LJ"
+function getInitials(name) {
+  return name
+    .split(" ")
+    .filter(Boolean)
+    .map((word) => word[0])
+    .join("")
+    .slice(0, 2)
+    .toUpperCase();
+}
+
 export const teamMembers = [
   {
     id: 1,
@@ -7,27 +18,27 @@ export const teamMembers = [
     skills: ["React", "JavaScript", "CSS", "UI/UX"],
     github: "https://github.com/jepletin",
     linkedin: "https://linkedin.com/in/lydiajepleting",
-    photo: "👩‍💻"
+    photo: getInitials("Lydia Jepleting")
   },
   {
     id: 2,
-    name: "Bryan Rono kipchumba",
+    name: "Bryan Rono Kipchumba",
     role: "Backend Architect",
     bio: "Node.js & Python expert focused on scalable microservices and cloud infrastructure.",
     skills: ["Node.js", "Python", "MongoDB", "AWS"],
     github: "https://github.com/rizz-mangwai",
     linkedin: "https://linkedin.com/in/bobsmith",
-    photo: "👨‍💻"
+    photo: getInitials("Bryan Rono Kipchumba")
   },
   {
     id: 3,
-    name: "Jame  kipleting Sang",
+    name: "James Kipleting Sang",
     role: "UI/UX Designer",
     bio: "Creative designer passionate about creating intuitive and beautiful user experiences.",
     skills: ["Figma", "Adobe XD", "User Research", "Prototyping"],
     github: "https://github.com/jaymoh34",
     linkedin: "https://linkedin.com/in/caroldavis",
-    photo: "🎨"
+    photo: getInitials("James Kipleting Sang")
   },
   {
     id: 4,
@@ -37,7 +48,7 @@ export const teamMembers = [
     skills: ["Docker", "Kubernetes", "CI/CD", "Linux"],
     github: "https://github.com/zkbett",
     linkedin: "https://linkedin.com/in/davewilson",
-    photo: "⚙️"
+    photo: getInitials("Zacheous Bett")
   },
   {
     id: 5,
@@ -47,6 +58,6 @@ export const teamMembers = [
     skills: ["React", "Node.js", "PostgreSQL", "GraphQL"],
     github: "https://github.com/evanskiprotich",
     linkedin: "https://linkedin.com/in/evamartinez",
-    photo: "👩‍💻"
+    photo: getInitials("Evans Kiprotich")
   }
 ];
