@@ -15,26 +15,26 @@ export default function About() {
 
       <div className="about-grid">
         <div className="about-card">
-          <div className="about-icon">🎯</div>
+          <i className="fas fa-bullseye about-icon"></i>
           <h3>Our Mission</h3>
           <p>
-            To create innovative, accessible, and sustainable technology solutions that make a positive impact 
+            To create innovative, accessible, and sustainable technology solutions that make a positive impact
             on people's lives and businesses.
           </p>
         </div>
         <div className="about-card">
-          <div className="about-icon">👁️</div>
+          <i className="fas fa-eye about-icon"></i>
           <h3>Our Vision</h3>
           <p>
-            To be a leading development team known for excellence, creativity, and collaboration in every project 
+            To be a leading development team known for excellence, creativity, and collaboration in every project
             we undertake.
           </p>
         </div>
         <div className="about-card">
-          <div className="about-icon">💎</div>
+          <i className="fas fa-gem about-icon"></i>
           <h3>Our Values</h3>
           <p>
-            Innovation, Integrity, Teamwork, and Continuous Learning — these values guide everything we do 
+            Innovation, Integrity, Teamwork, and Continuous Learning — these values guide everything we do
             and every decision we make.
           </p>
         </div>
