@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Home from "./Pages/Home";
-import About from "./Pages/About";
-import Profile from "./Pages/Profile";
-import Projects from "./Pages/Projects";
-import Contact from "./Pages/Contacts";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Profile from "./pages/Profile";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contacts";
 import "./App.css";
 
 export default function App() {
