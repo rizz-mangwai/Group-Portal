@@ -18,7 +18,7 @@ export default function Profile() {
             <h3>{member.name}</h3>
             <span className="role">{member.role}</span>
             <p className="bio">{member.bio}</p>
-            
+
             <div className="skills">
               {member.skills.map((skill, idx) => (
                 <span key={idx} className="skill-tag">{skill}</span>
@@ -34,7 +34,7 @@ export default function Profile() {
               </a>
             </div>
 
-            <button 
+            <button
               className="view-profile-btn"
               onClick={() => setSelectedMember(selectedMember?.id === member.id ? null : member)}
             >
